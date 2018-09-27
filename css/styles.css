@@ -1,7 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Mali|Ubuntu');
+
+
 body{
-  font-size: 2em;
-  background:pink;
+  background: #FFFEA1;
+  font-size: 120%;
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
+}
+h1{
+  font-size: 2em;
+}
+p,ul{
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
 }
