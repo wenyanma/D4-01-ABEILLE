@@ -1,19 +1,146 @@
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-@import url('https://fonts.googleapis.com/css?family=Mali|Ubuntu');
-
+@import url('https://fonts.googleapis.com/css?family=KoHo:400i|Nunito+Sans|Nunito:400,600i');
+#Header {
+  position :relative ;
+  width :100 %;
+  height: 10 %;
+  background-color: #0E2D5F;
+}
 
 body{
-  background: #FFFEA1;
-  font-size: 120%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  display:flex;
+}
+.main-menu{
+  background-color: gold;
+  display:flex;
+  justify-content:space-between;
+	align-items:center;
+	padding:20px;
+  justify-content: space-between
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-block {
+  max-width: 600px;
+  flex-basis: 600px;
+}
+
+.image-block img {
+  width: 100%;
+}
+
+.row-text-content {
+  flex-basis: 600px;
+}
+
+/*
+main{
+	padding:20px;
+}
+
+main h1{
+	margin:0;
+	font-size:24px;
+	text-align:center;
+	padding:20px 0;
+}
+
+main .col{
+	max-width:960px;
+	margin:0 auto;
+  display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	align-items: stretch;
+  min-width:280px;
+  margin:20px;
+}
+
+
+main img{
+	display:block;
+	width:400px;
+}
+main p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+} */
+
+
+
+
+
+
+li{
+  list-style-type:none;
+}
+
+.icon{
+  width: 50px;
+  fill: gold;
+  stroke: coral;
+  stroke-width: 5%;
+  stroke-linejoin: round;
+}
+
+
+
+
+
+.videos{
+  text-align: center;
+
+}
+
+footer{
+  background-color: gold;
+
+}
+
+
+
+.background{
+  background-color: gold;
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
 }
 h1{
-  font-size: 2em;
+  font-size: 45px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
-p,ul{
+
+h2{
+  font-size: 22px;
+  font-family: 'KoHo';
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+}
+
+li{
   font-size: 14px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.navigation-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
