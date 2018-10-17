@@ -7,52 +7,65 @@
   </head>
   <body>
     <header>
-      <a href="index.html">
-      <img class="logo" src="images/d5f621c8608ff253370d1b3e8a6c67bc.gif"  alt="logo" width="80" height="80">
-      </a>
-      <h1></h1>
+      <div class="logo">
+       <a href="index.html">
+       <img class="logo-img" src="images/d5f621c8608ff253370d1b3e8a6c67bc.gif"  alt="logo" width="80" height="80">
+       <h1>L'abeille & La fleur</h1>
+       </a>
+      </div>
 
       <nav class="main-menu">
             <ul class="main-menu">
               <li><a href="index.html">Home</a></li>
-              <li><a href=".pollinisation">La pollinisation</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#pollinisation-01">La pollinisation</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
       </nav>
     </header>
-    
-    <header>
-        <h1>Depart de la bruche </h1>
-    </header>
-<div class="videos">
 
-  <a href="index.html">
-   <svg class="icon">
-     <use xlink:href="#retour"></use>
-     </svg>
-  </a>
+<div class="main-01">
+ <div class="row-video">
 
+   <div class="icon-retour">
+   <a href="index.html">
+    <svg class="icon">
+      <use xlink:href="#retour"></use>
+      </svg>
+   </a>
+   </div>
+
+ <div class="videos-block">
     <video controls autoplay loop
        src="media/bee-video01.mp4"
        width="600"
        height="400">
     Sorry, your browser doesn't support embedded videos.
    </video>
+ </div>
 
-
- </a>
+ <div class="icon-avant">
  <a href="etape02.html">
   <svg class="icon">
     <use xlink:href="#avant"></use>
     </svg>
  </a>
+ </div>
 </div>
 
-<p>
-Cette attraction se fait par la couleur des fleurs,
-les éventuels motifs présents sur les pétales, l
-a forme et la taille des pétales mais aussi par
-l’odeur que les fleurs dégagent.</p>
+<div class="videos-text-content">
+ <h3 id="pollinisation-01">Étape 1 : Départ de la ruche</h3>
+ <p>Le rôle principal des abeilles est la pollinisation.
+   Comme cette dernière est nécessaire à la reproduction
+   des plantes, beaucoup d'entre elles dépendent des abeilles
+   et d'autres insectes qui servent de pollinisateurs.</p>
+   <p>Lorsqu'une abeille recueille du nectar et du pollen de la
+   fleur d'une plante, une partie du pollen des étamines —
+   l'organe reproducteur mâle de la fleur — colle aux poils
+   de son corps. Lorsqu'elle se pose sur une autre fleur,
+   une partie du pollen se dépose sur le stigmate ou sur
+   le bout du pistil — l'organe reproducteur femelle de la fleur. Lorsque cela se produit, la fécondation est possible, et un fruit, portant des graines, peut se développer.</p>
+ </div>
+</div>
 
 
 
@@ -61,33 +74,42 @@ l’odeur que les fleurs dégagent.</p>
  <svg xmlns="http://www.w3.org/2000/svg">
   <symbol id="retour" viewBox="0 0 283.5 283.5">
   <path d="M141.8 283.4a141.8 141.8 0 1 0-.2-283.6 141.8 141.8 0 0 0 .2 283.6zM152.3 89v32.1h69.8v40.7h-69.9v32l-90.7-52.4L152.3 89z"/>
-</svg>
+ </svg>
 
-<svg xmlns="http://www.w3.org/2000/svg">
+ <svg xmlns="http://www.w3.org/2000/svg">
      <symbol id="avant" viewBox="0 0 283.5 283.5">
        <path d="M141.7 0a141.8 141.8 0 1 0 .2 283.6A141.8 141.8 0 0 0 141.7 0zm-10.5 194.4v-32.1H61.4v-40.7h69.9v-32L222 142l-90.8 52.4z"/>
-     </svg>
+ </svg>
+
+
+<div class="inscription">
+
+ <form action="" method="get" class="formulaire">
+   <h4>NOUS REJOINDRE</h4>
+   <div class="formulaire">
+     <label for="name">Votre nom: </label>
+     <input type="text" name="name" id="name" required>
+   </div>
+   <div class="formulaire">
+     <label for="email">Votre mail: </label>
+     <input type="email" name="email" id="email" required>
+   </div>
+   <div class="formulaire">
+     <input type="submit" value="Subscribe!">
+   </div>
+ </form>
+
+ </div>
 
 
 
 
+<footer>
+      <p id="contact">© 2019 - This page was created by mwy - contract us -
+      <a href="mailto:mwy@gmail.com">mwy@gmail.com</a>
+     </p>
+</footer>
 
-
-
-
-
-    <ul>
-      <li><a href="etape02.html">Trouver une fleur </li>
-      <li><a href="etape03.html">Buttinage </li>
-      <li><a href="etape04.html">Retour à la ruche </li>
-      <li><a href="index.html">Page d'accueil</li>
-   </ul>
-
-
-   <footer>
-      <p>This page was created by mwy</p>
-      <p>contract us</p>
-   </footer>
 
   </body>
 </html>
