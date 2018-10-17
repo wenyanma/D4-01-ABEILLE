@@ -8,49 +8,65 @@
   <body>
 
     <header>
-      <a href="index.html">
-      <img class="logo" src="images/d5f621c8608ff253370d1b3e8a6c67bc.gif"  alt="logo" width="80" height="80">
-      </a>
-      <h1></h1>
+      <div class="logo">
+       <a href="index.html">
+       <img class="logo-img" src="images/d5f621c8608ff253370d1b3e8a6c67bc.gif"  alt="logo" width="80" height="80">
+       <h1>L'abeille & La fleur</h1>
+       </a>
+      </div>
 
       <nav class="main-menu">
             <ul class="main-menu">
               <li><a href="index.html">Home</a></li>
-              <li><a href=".pollinisation">La pollinisation</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#pollinisation-02">La pollinisation</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
       </nav>
     </header>
 
-    <header>
-        <h1>Trouver une fleur </h1>
-    </header>
 
 
 
-<div class="videos">
+<div class="main-01">
+ <div class="row-video">
+    <div class="icon-retour">
 
-  <a href="etape01.html">
-   <svg class="icon">
-     <use xlink:href="#retour"></use>
-     </svg>
-  </a>
-
-  <video controls autoplay loop
+      <a href="etape01.html">
+       <svg class="icon">
+        <use xlink:href="#retour"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="videos-block">
+     <video controls autoplay loop
        src="media/bee-video02.mp4"
        width="600"
        height="400">
-    Sorry, your browser doesn't support embedded videos.
-   </video>
+     Sorry, your browser doesn't support embedded videos.
+     </video>
+    </div>
 
-
-   <a href="etape03.html">
+    <div class="icon-avant">
+    <a href="etape03.html">
     <svg class="icon">
       <use xlink:href="#avant"></use>
       </svg>
    </a>
+ </div>
 </div>
-
+<div class="videos-text-content">
+ <h3 id="pollinisation-02">Étape 2 : Trouver une fleur</h3>
+ <p>Les plantes dépendent des abeilles et d'autres
+   insectes pour se reproduire, et c'est pourquoi
+   elles se sont adaptées, au fil du temps, afin
+   de les attirer. Les abeilles sont attirées
+   par les plantes avec fleurs ouvertes ou plates
+   et tubulaires qui contiennent beaucoup de pollen
+   et de nectar. Le parfum d'une fleur peut
+   représenter un attrait particulier pour les
+   abeilles, et ses couleurs vives peuvent les y attirer.</p>
+ </div>
+</div>
 
 
 
@@ -66,19 +82,34 @@
          <path d="M141.7 0a141.8 141.8 0 1 0 .2 283.6A141.8 141.8 0 0 0 141.7 0zm-10.5 194.4v-32.1H61.4v-40.7h69.9v-32L222 142l-90.8 52.4z"/>
        </svg>
 
+       <div class="inscription">
+
+<form action="" method="get" class="formulaire">
+          <h4>NOUS REJOINDRE</h4>
+          <div class="formulaire">
+            <label for="name">Votre nom: </label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div class="formulaire">
+            <label for="email">Votre mail: </label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="formulaire">
+            <input type="submit" value="Subscribe!">
+          </div>
+        </form>
+
+</div>
 
 
 
-    <ul>
-      <li><a href="etape03.html">Buttinage </li>
-      <li><a href="etape04.html">Retour à la ruche </li>
-      <li><a href="index.html">Page d'accueil</li>
-    </ul>
 
-    <footer>
-       <p>This page was created by mwy</p>
-       <p>contract us</p>
-    </footer>
+
+<footer>
+  <p id="contact">© 2019 - This page was created by mwy - contract us -
+  <a href="mailto:mwy@gmail.com">mwy@gmail.com</a>
+            </p>
+</footer>
 
 
 
