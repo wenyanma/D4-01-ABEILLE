@@ -1,12 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Mali|Pangolin');
 @import url('https://fonts.googleapis.com/css?family=KoHo:400i|Nunito+Sans|Nunito:400,600i');
-#Header {
-  position :relative ;
-  width :100 %;
-  height: 10 %;
-  background-color: #0E2D5F;
-}
 
 body{
   margin-left: auto;
@@ -14,14 +8,18 @@ body{
 }
 
 header{
+  background-color: #FFFFFF;
+  position:fixed;
+  top: 0px;
+  left:0px;
+  z-index:999;
   width: 100%;
   display:flex;
-  padding:20px;
-  position:relative;
-  margin-left:25px;
+  padding:10px;
   justify-content:space-between;
   align-items:center;
 }
+
 header img{
   float:left;
   margin: auto;
@@ -49,6 +47,7 @@ header a:hover{
   color: gold;
 
 }
+
 
 .main-menu{
   margin-right: 60px;
@@ -136,8 +135,7 @@ h2{
   font-size: 40px;
   font-family:'Mali', cursive;
   text-align: center;
-  padding:50px 0;
-
+  padding: 150px 0 0 0;
 }
 
 footer p{
@@ -202,13 +200,12 @@ article h3,a,p{
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+  padding-top: 200px;
+
 }
 .row-video-04 {
   display: flex;
   width: 940px;
-}
-.videos-block{
-  margin-top: 50px;
 }
 
 
